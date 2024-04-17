@@ -5,9 +5,10 @@
 }
 
 body{
-    background-color: black;
+    background-color: rgb(219, 194, 194);
 }
 
+/* NAVBAR */
 .nav-items{
     margin-right: 9.375vw;    /* Centralizar texto nav */
 }
@@ -20,4 +21,130 @@ color: #124076;
 .nav-item-home{
    color: #CBBE3C; 
 }
+/* NAVBAR */
+
+/* Footer */
+.footer{
+    max-width: 100%;
+    background-color: #121213;
+    font-size: 18px;
+    padding: 100px 50px 50px 100px;
+   }
+
+   .footer-content{
+    display: flex;
+    justify-content: space-around;
+   }
+   
+   .title-footer {
+   
+    color: #ffffff;
+    font-family: 'Kanit', sans-serif;
+    font-weight: initial;
+       font-size:26px;
+       width:100%;
+       float:left;
+       margin-bottom:15px;
+   
+   }
+
+   .text-footer {
+    color: #ffffff;
+    font-family: 'Kanit', sans-serif;
+  
+   
+   }
+
+   .logo-footer{
+    margin-top: 4px;
+   }
+
+   .footer .links{
     
+    width: 100%;
+    float: left;
+    color:  #ffffff;
+    margin-bottom: 20px;
+    padding: 0;
+   }
+   
+   .footer .links a{
+       display: block;
+       line-height: 33px;
+       text-decoration: none;
+       color: #fff;
+       font-family:'Kanit', sans-serif;
+       font-size:16px;
+       transition:0.3s;
+   }
+   
+   .footer .links a:hover { color:#CBC264; }
+   
+   .footer-icons{
+    margin-top: 100px;
+    text-align: center;
+   }
+   
+   .footer-icons a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color:  #CBC264;
+    border-radius: 50px;
+       font-family:'DM Sans', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center; 
+    line-height: 35px;
+    margin-bottom: 5px;
+    transition:0.3s;
+   
+   }
+
+   .footer .footer-icons a:hover{ background-color:#2fcacf; }
+/* Footer */
+
+/*Media Queries*/
+@media (max-width: 1280px) {
+
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+       }
+
+       .left-text{ text-align: center;}
+
+       
+   .center{ text-align: center;}
+
+    .logo-footer{ margin: 0 auto;}
+
+    .footer{ padding: 100px 50px 50px 100px; }
+}
+   
+   @media (max-width: 768px) {
+
+    .footer-content{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+       }
+
+       .left-text{
+        text-align: center;
+       }
+
+       
+   .center{
+    text-align: center;
+   }
+
+       .logo-footer{
+        margin: 0 auto;
+       }
+
+
+    .footer { padding: 100px 50px 50px 100px; }
+   }
