@@ -121,7 +121,7 @@ color: #124076;
 
     .logo-footer{ margin: 0 auto;}
 
-    .footer{ padding: 100px 50px 50px 100px; }
+    .footer{ padding: 100px 1% 0% 1%; }
 }
    
    @media (max-width: 768px) {
@@ -146,5 +146,5 @@ color: #124076;
        }
 
 
-    .footer { padding: 100px 50px 50px 100px; }
+    .footer { padding: 100px 1% 0% 1%; }
    }
