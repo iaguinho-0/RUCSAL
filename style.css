@@ -38,6 +38,11 @@ h2, p{
 .r-univ p{
     font-size: 1em;
     margin-right: 30px;
+    font-weight: 300;
+}
+
+.r-univ h2{
+    font-weight: 500;
 }
 
 .r-univ{
