@@ -4,15 +4,8 @@
     font-family: Kanit, sans-serif;
 }
 
-body{
-    background: linear-gradient(#3259CE, #142454, #081028);
-    
-}
 
 /* NAVBAR */
-nav{
-    margin-bottom: 35px;
-}
 
 .nav-items{
     margin-right: 9.375vw;    /* Centralizar texto nav */
@@ -29,6 +22,9 @@ color: #124076;
 /* NAVBAR */
 
 /* SECTION RESTAURANTE UNIVERSITÁRIO */
+.content{
+    background: linear-gradient(#3259CE, #142454, #081028);
+}
 
 h2, p{
     color: #FFFFFF;
@@ -56,6 +52,7 @@ h2, p{
 }
 
 .img-ucsal{
+    margin-top: 70px;
     width: 70%;
     height: 70%;
 }
@@ -74,6 +71,37 @@ h2, p{
     font-size: 2em;
     margin-bottom: 10px;
 }
+
+/* wave2 */
+.wave{
+    padding-top: 220px;
+}
+.custom-shape-divider-bottom-1713642525 {
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1713642525 svg {
+    
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 225px;
+}
+
+.custom-shape-divider-bottom-1713642525 .shape-fill {
+    
+    fill: #FFFFFF;
+}
+
+/* wave2 */
+
 
 /* SECTION RESTAURANTE UNIVERSITÁRIO */
 
