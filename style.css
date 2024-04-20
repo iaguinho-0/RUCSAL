@@ -6,10 +6,14 @@
 
 body{
     background: linear-gradient(#3259CE, #142454, #081028);
-
+    
 }
 
 /* NAVBAR */
+nav{
+    margin-bottom: 35px;
+}
+
 .nav-items{
     margin-right: 9.375vw;    /* Centralizar texto nav */
 }
@@ -23,6 +27,50 @@ color: #124076;
    color: #CBBE3C; 
 }
 /* NAVBAR */
+
+/* SECTION RESTAURANTE UNIVERSITÁRIO */
+
+h2, p{
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.r-univ p{
+    font-size: 1em;
+    margin-right: 30px;
+}
+
+.r-univ{
+    margin-bottom: 17px;
+    margin-left: 66px;
+    margin-right: 66px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 22px;
+}
+
+.img-ucsal{
+    width: 70%;
+    height: 70%;
+}
+
+.txt-content{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+
+.r-univ__divtitle{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* SECTION RESTAURANTE UNIVERSITÁRIO */
 
 /* Footer */
 .footer{
@@ -127,6 +175,30 @@ color: #124076;
 }
    
    @media (max-width: 768px) {
+
+    .r-univ{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-ucsal{
+        width: 70%;
+        max-width: 100%;
+        min-width: 70px !important;
+        height: 30%;
+    }
+
+    .r-univ p{
+        font-size: clamp(1rem, 2.5vw, 1rem);
+    }
+
+    .r-univ h2{
+        font-size: clamp(2rem, 2.5vw, 2rem);
+    }
+
+    .r-univ__divtitle{
+        align-self: center;
+    }
 
     .footer-content{
         display: flex;
