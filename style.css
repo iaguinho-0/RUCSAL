@@ -5,7 +5,8 @@
 }
 
 body{
-    background-color: rgb(219, 194, 194);
+    background: linear-gradient(#3259CE, #142454, #081028);
+
 }
 
 /* NAVBAR */
@@ -56,7 +57,8 @@ color: #124076;
    }
 
    .logo-footer{
-    margin-top: 4px;
+    width: 250px;
+    height: 61x;
    }
 
    .footer .links{
