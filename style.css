@@ -28,13 +28,12 @@ color: #124076;
 
 h2, p{
     color: #FFFFFF;
-    margin: 0;
 }
 
 .r-univ p{
     font-size: 1em;
-    margin-right: 30px;
     font-weight: 300;
+    text-align: justify;
 }
 
 .r-univ h2{
@@ -60,6 +59,7 @@ h2, p{
 .txt-content{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     gap: 1px;
 }
 
@@ -77,7 +77,11 @@ h2, p{
 /* SECTION CARDS */
 
 .pratos-semanais__title{
-    margin-top: 20px;
+    margin-top: 50px;
+}
+
+.bg-black{
+    margin-bottom: 100px;
 }
 
 .img-card{
@@ -172,14 +176,11 @@ h2, p{
        width:100%;
        float:left;
        margin-bottom:15px;
-   
    }
 
    .text-footer {
     color: #ffffff;
     font-family: 'Kanit', sans-serif;
-  
-   
    }
 
    .logo-footer{
@@ -238,6 +239,13 @@ h2, p{
 /*Media Queries*/
 @media (max-width: 1280px) {
 
+    .card{
+        max-width: 20%;
+        max-height: 20%;
+        min-width: 10%;
+        min-height: 10%;
+    }
+
     .footer-content{
         display: flex;
         flex-direction: column;
@@ -253,8 +261,69 @@ h2, p{
 
     .footer{ padding: 100px 1% 0% 1%; }
 }
+
+@media (max-width: 1065px){
+
+    .pratos-semanais__title{
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .cards-linha{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bg-black{
+        display: flex;
+        flex-direction: row;
+        height: 80%;
+        padding-left: 100px;
+        margin: 20px;
+        margin-bottom: 100px;
+    }
+
+    .card__txt{
+        padding-right: 50px;
+    }
+
+    .card{
+        max-width: 50%;
+        max-height: 60%;
+
+    }
+
+    .img-card{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        bottom: 100px;
+    }
+
+}
    
    @media (max-width: 768px) {
+
+    .card{
+        max-width: 100%;
+        max-height: 20%;
+    }
+
+    .img-card{
+        width: 100%;
+        height: 100%;
+    }
+
+    .bg-black{
+        display: flex;
+        justify-content: space-around;
+        padding-left: 0;
+        max-width: 90%;
+    }
+
+    .card__txt{
+        visibility:hidden;
+    }
 
     .r-univ{
         flex-direction: column;
