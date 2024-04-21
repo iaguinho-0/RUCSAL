@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
+    box-sizing: border-box;
     font-family: Kanit, sans-serif;
 }
 
@@ -23,7 +24,23 @@ color: #124076;
 
 /* SECTION RESTAURANTE UNIVERSITÁRIO */
 .content{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
     background: linear-gradient(#3259CE, #142454, #081028);
+}
+
+.banner-univ{
+    display: flex;
+}
+
+.banner{
+    background-size: cover;
+}
+
+.banner-text{
+    display: flex;
+    color: #ffffff;
 }
 
 h2, p{
@@ -41,25 +58,18 @@ h2, p{
 }
 
 .r-univ{
-    margin-bottom: 17px;
+    margin-top: 5%;
     margin-left: 66px;
     margin-right: 66px;
     display: flex;
-    justify-content: space-between;
+    justify-items: center;
     align-items: center;
-    gap: 22px;
-}
-
-.img-ucsal{
-    margin-top: 70px;
-    width: 70%;
-    height: 70%;
+    gap: 28px;
 }
 
 .txt-content{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     gap: 1px;
 }
 
@@ -67,7 +77,6 @@ h2, p{
 .r-univ__divtitle{
     display: flex;
     flex-direction: column;
-    gap: 0px;
     font-size: 2em;
     margin-bottom: 10px;
 }
@@ -81,7 +90,7 @@ h2, p{
 }
 
 .bg-black{
-    margin-bottom: 100px;
+    margin-bottom: 20%;
 }
 
 .img-card{
@@ -99,6 +108,7 @@ h2, p{
 
 .pratos-semanais{
     display: flex;
+    margin-top: 15%;
     justify-content: center;
     flex-direction: column;
     height: 100vh;
