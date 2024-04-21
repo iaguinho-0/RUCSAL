@@ -211,9 +211,11 @@ h2, p{
    .footer-icons{
     margin-top: 100px;
     text-align: center;
+    margin-left: 5%;
    }
    
    .footer-icons a{
+    margin-right: 5%;
     display: inline-block;
     width: 35px;
     height: 35px;
