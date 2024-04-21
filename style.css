@@ -72,38 +72,83 @@ h2, p{
     margin-bottom: 10px;
 }
 
-/* wave2 */
-.wave{
-    padding-top: 220px;
-}
-.custom-shape-divider-bottom-1713642525 {
-
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1713642525 svg {
-    
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 225px;
-}
-
-.custom-shape-divider-bottom-1713642525 .shape-fill {
-    
-    fill: #FFFFFF;
-}
-
-/* wave2 */
-
-
 /* SECTION RESTAURANTE UNIVERSITÁRIO */
+
+/* SECTION CARDS */
+
+.pratos-semanais__title{
+    margin-top: 20px;
+}
+
+.img-card{
+    height: 300px;
+    width: 250px;
+    margin-top: 100px;
+    transition: .5s;
+}
+
+.cards-linha{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pratos-semanais{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    gap: 30px;
+}
+
+.pratos-semanais p{
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.pratos-semanais h1{
+    color: white;
+    font-size: 30px;
+}
+
+.card{
+    height: 300px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+    background-color: #101e44;
+}
+
+.card__txt{
+    height: 100px;
+    width: 250px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    background: rgb(27, 27, 27, .5);
+    transition: .5s;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+.card:hover .card__txt{
+    height: 150px;
+    background: black;
+}
+
+.card:hover p{
+    opacity: 1;
+    visibility: visible;
+}
+
+.card:hover img{
+    transform: scale(1.1) rotate(-3deg);
+}
+/* SECTION CARDS */
 
 /* Footer */
 .footer{
