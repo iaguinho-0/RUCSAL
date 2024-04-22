@@ -331,8 +331,8 @@ h2, p{
         max-width: 90%;
     }
 
-    .card__txt{
-        visibility:hidden;
+    .card__txt h1{
+        visibility: hidden;
     }
 
     .r-univ{
