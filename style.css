@@ -231,10 +231,9 @@ h2, p{
     width: 35px;
     height: 35px;
     cursor: pointer;
-    background-color:  #CBC264;
     border-radius: 50px;
        font-family:'DM Sans', sans-serif;
-    font-size: 20px;
+    font-size: 2vw;
     color: #ffffff;
     text-align: center; 
     line-height: 35px;
@@ -243,7 +242,7 @@ h2, p{
    
    }
 
-   .footer .footer-icons a:hover{ background-color:#2fcacf; }
+   .footer .footer-icons a:hover{ color:#CBC264;}
 /* Footer */
 
 /*Media Queries*/
@@ -269,7 +268,7 @@ h2, p{
 
     .logo-footer{ margin: 0 auto;}
 
-    .footer{ padding: 100px 1% 0% 1%; }
+    .footer{ padding: 100px 1% 10% 1%; }
 }
 
 @media (max-width: 1065px){
@@ -310,6 +309,9 @@ h2, p{
         bottom: 100px;
     }
 
+    .footer-icons a{
+        font-size: 3.5vw;
+       }
 }
    
    @media (max-width: 768px) {
@@ -379,5 +381,10 @@ h2, p{
        }
 
 
-    .footer { padding: 100px 1% 0% 1%; }
+    .footer { padding: 100px 1% 10% 1%; 
+    }
+
+    .footer-icons a{
+        font-size: 5vw;
+       }
    }
