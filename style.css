@@ -49,6 +49,7 @@ h2, p{
 
 .r-univ p{
     font-size: 1em;
+    max-width: 800px;
     font-weight: 300;
     text-align: justify;
 }
@@ -58,9 +59,7 @@ h2, p{
 }
 
 .r-univ{
-    margin-top: 5%;
-    margin-left: 66px;
-    margin-right: 66px;
+    margin: 8% auto 0;
     display: flex;
     justify-items: center;
     align-items: center;
@@ -312,6 +311,17 @@ h2, p{
     .footer-icons a{
         font-size: 3.5vw;
        }
+
+       .r-univ{
+        margin-top: 11%;
+    }
+
+
+       .r-univ p{
+        font-size: 0.85em;
+        max-width: 350px;
+    }
+
 }
    
    @media (max-width: 768px) {
