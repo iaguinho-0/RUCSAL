@@ -47,9 +47,16 @@ h2, p{
     color: #FFFFFF;
 }
 
+.img-ucsal{
+    width: 25vw;
+    max-width: 400px;
+}
+
 .r-univ p{
     font-size: 1em;
-    max-width: 800px;
+    width: 100%;
+    max-width: 700px;
+    box-sizing: border-box;
     font-weight: 300;
     text-align: justify;
 }
@@ -357,6 +364,7 @@ h2, p{
         max-width: 100%;
         min-width: 70px !important;
         height: 30%;
+        margin-top: 8vw;
     }
 
     .r-univ p{
