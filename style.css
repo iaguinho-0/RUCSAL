@@ -193,7 +193,7 @@ h2, p{
 
 .card:hover .card__txt{
     height: 150px;
-    background: black;
+    background: rgba(0, 0, 0, 0.7);
 }
 
 .card:hover p{
@@ -202,6 +202,7 @@ h2, p{
 }
 
 .card:hover img{
+    transition: .5s;
     transform: scale(1.1) rotate(-3deg);
 }
 /* SECTION CARDS */
@@ -349,6 +350,14 @@ h2, p{
 
     }
 
+    .card h1{
+        font-size: 3.4vw;
+    }
+
+    .card p{
+        font-size: 1.7vw;
+    }
+
     .img-card{
         width: 100%;
         height: 100%;
@@ -403,9 +412,16 @@ h2, p{
         max-height: 20%;
     }
 
+    .card__txt{
+        height: 100%;
+        padding-right: 60%;
+        font-size: 1.7vw;
+    }
+
     .img-card{
         width: 100%;
         height: 100%;
+        min-width: 80px;
     }
 
     .bg-black{
