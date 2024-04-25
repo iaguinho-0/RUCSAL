@@ -128,7 +128,7 @@ h2, p{
 /* SECTION CARDS */
 
 .pratos-semanais__title{
-    margin-top: 50px;
+    margin-top: 5%;
 }
 
 .bg-black{
@@ -193,7 +193,7 @@ h2, p{
 
 .card:hover .card__txt{
     height: 150px;
-    background: black;
+    background: rgba(0, 0, 0, 0.7);
 }
 
 .card:hover p{
@@ -202,6 +202,7 @@ h2, p{
 }
 
 .card:hover img{
+    transition: .5s;
     transform: scale(1.1) rotate(-3deg);
 }
 /* SECTION CARDS */
@@ -349,6 +350,14 @@ h2, p{
 
     }
 
+    .card h1{
+        font-size: 3.4vw;
+    }
+
+    .card p{
+        font-size: 1.7vw;
+    }
+
     .img-card{
         width: 100%;
         height: 100%;
@@ -385,17 +394,17 @@ h2, p{
     }
 
     .texto {
-        top: 46%;
-        left: 1.3vw;
+        top: 66%;
+        left: 2vw;
         padding: 1.5%;
     }
 
     .texto h1{
-        font-size: 3vw;
+        font-size: 3.4vw;
     }
 
     .texto p{
-        font-size: 1.5vw;
+        font-size: 1.7vw;
     }
 
     .card{
@@ -403,9 +412,16 @@ h2, p{
         max-height: 20%;
     }
 
+    .card__txt{
+        height: 100%;
+        padding-right: 60%;
+        font-size: 1.7vw;
+    }
+
     .img-card{
         width: 100%;
         height: 100%;
+        min-width: 80px;
     }
 
     .bg-black{
@@ -437,9 +453,15 @@ h2, p{
     }
 
     .r-univ h2{
-        font-size: clamp(2rem, 2.5vw, 2rem);
+        font-size: 5vw;
     }
 
+    .text-ru p{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 2.4vw;
+    }
     .r-univ__divtitle{
         align-self: center;
     }
