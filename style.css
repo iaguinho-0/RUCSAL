@@ -5,6 +5,10 @@
     font-family: Kanit, sans-serif;
 }
 
+body{
+    margin-top: 80px;
+}
+
 
 /* NAVBAR */
 
@@ -21,6 +25,38 @@ color: #124076;
    color: #CBBE3C; 
 }
 /* NAVBAR */
+
+/* banner */
+
+
+.texto {
+    position: absolute;
+    top: 46%;
+    left: 16vw;
+    background-color: rgba(0, 0, 0, 0.60);
+    border-radius: 25px;
+    padding: 1.5%;
+    text-align: left;
+}
+
+.texto h1 {
+    font-size: 2em;
+    margin-top: 0;
+    color: white;
+}
+
+.texto p {
+    font-size: 1em;
+    margin-bottom: 0;
+    color: white;
+}
+
+
+.img-banner-mb{
+    display: none;
+        visibility: hidden;
+}
+/* banner */
 
 /* SECTION RESTAURANTE UNIVERSITÁRIO */
 .content{
@@ -278,6 +314,11 @@ h2, p{
 }
 
 @media (max-width: 1065px){
+        .texto {
+        top: 36%;
+        left: 1.3vw;
+        padding: 1.5%;
+    }
 
     .pratos-semanais__title{
         margin-top: 10px;
@@ -332,6 +373,30 @@ h2, p{
 }
    
    @media (max-width: 768px) {
+
+    .img-banner{
+        display: none;
+        visibility: hidden;
+    }
+
+    .img-banner-mb{
+        display: block;
+            visibility: visible;
+    }
+
+    .texto {
+        top: 46%;
+        left: 1.3vw;
+        padding: 1.5%;
+    }
+
+    .texto h1{
+        font-size: 3vw;
+    }
+
+    .texto p{
+        font-size: 1.5vw;
+    }
 
     .card{
         max-width: 100%;
